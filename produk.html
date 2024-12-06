@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Produk</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url(../img/bg.jpg);
+            color: White;
+            text-align: center;
+        }
+        .header {
+            background-color: #111;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 18px;
+            text-align: center;
+        }
+        .content {
+            padding-top: 70px;
+        }
+        .logo img {
+            width: 100px;
+            border-radius: 50%;
+        }
+        .button-container {
+            margin: 20px auto;
+            max-width: 400px;
+        }
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333;
+            border: 1px solid #555;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+        }
+        .button:hover {
+            background-color: #444;
+        }
+        .icon {
+            font-size: 20px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 20px;
+        }
+            body {
+          
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #1a1a2e;
+      background-image: url(../img/bg.jpg);
+      color: #fff;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 24px;
+    }
+
+    .typing {
+      text-align: center;
+      border-right: 2px solid #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 15ch;
+      animation: typing 2s steps(15), blink 0.5s step-end infinite alternate;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 15ch;
+      }
+    }
+
+    @keyframes blink {
+      from {
+        border-right-color: transparent;
+      }
+      to {
+        border-right-color: #fff;
+      }
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>ALLL PRODUK RIDZ</h1>
+    </div>
+    <div class="content">
+        <div class="logo">
+            <img src="img/ridzz.jpg" alt="Logo">
+        </div>
+        <div class="button-container">
+            <a href="panel.html" class="button">
+                <span>❏ PANEL PTERODACKTYL</span>
+                <span class="icon"></span>
+            </a>
+            <div class="footer">
+            <p class="typing"></p>
+            </div>
