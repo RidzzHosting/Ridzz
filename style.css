@@ -1,5 +1,5 @@
 body {
-  background-image: url(bg.jpg);
+  background-image: url(../bg.jpg);
 }
         .profile-container {
             max-width: 400px;
@@ -127,7 +127,7 @@ body {
             padding: 0;
             background-color: #f0f0f0;
             text-align: center;
-            background-image: url(bg.jpg);
+            background-image: url(../bg.jpg);
         }
         h2 {
           text-align: center;
